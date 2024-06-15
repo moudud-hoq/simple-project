@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -8,3 +8,57 @@ body {
     font-size: 14px;
     line-height: 22px;
 }
+
+.header-left {
+    color: whitesmoke;
+    font-family: monospace;
+    font-weight: 900;
+    
+}
+
+.area {
+    /* padding: 10px 20px; */
+    margin: 0 20px;
+    border: 1px solid red;
+}
+
+.topheader {
+    background-color: #293241;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0px 30px 5px;
+}
+
+.menu {
+    display: flex;
+    justify-content:space-between;
+    gap: 5px;
+    list-style-type: none;
+}
+.header-left {
+    font-size: 1.5rem;
+
+}
+
+.top-menu {
+}
+
+.menu a{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+}
+
+
+li a {
+    padding: 10px 10px;
+}
+
+li a:hover {
+    background: rgb(236, 255, 65);    
+    border-radius: 2px;
+}
+
+
+
+

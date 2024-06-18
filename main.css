@@ -40,9 +40,6 @@ body {
 
 }
 
-.top-menu {
-}
-
 .menu a{
     font-size: 1.5rem;
     font-weight: 600;
@@ -52,13 +49,64 @@ body {
 
 li a {
     padding: 10px 10px;
+    text-decoration: none;
 }
 
 li a:hover {
     background: rgb(236, 255, 65);    
     border-radius: 2px;
+    color: blue;
+    transition-delay: 0.1s;
 }
 
+/*     <!-- Exclusive Services --> */
 
+.ex-ser{
+    display: flex;
+    justify-content: center
+}
+.s {
+    max-width: 300px;
+    margin: 5px 20px;
+    padding: 10px 5px;
+    border: 1px solid red;
+    background-color: rgb(186, 255, 95);
+}
 
+.si1 {  
+    max-width: 250px;
+    background-position: cover;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 0;
 
+    
+}
+
+.s-title{
+    padding: 10px 0;
+    text-align: center;
+
+}
+
+.s-paragraph{
+    padding: 5px 5px;
+
+}
+
+.sbtn {
+    padding: 5px 10px;
+}
+
+/* Gallery */
+.gallery-div{
+    margin: 10px 20px;
+    background: #cac9c9;
+    display: flex;
+    flex-direction: column;
+}
+
+.gal, 1{
+    min-width: 200px;
+}
